@@ -1,0 +1,22 @@
+name: Johan Gloria
+email: johanglgzz@gmail.com
+experience:
+  - title: Backend Developer
+    company: TechCorp
+    start: 2023-01-15
+    end: 2024-06-30
+    description: APIs en Python
+  - title: Junior Dev
+    company: Startup
+    start: 2022-06-01
+    end: 2022-12-31
+    description: Automatización
+skills:
+  - name: Python
+    level: senior
+  - name: Docker
+    level: mid
+education:
+  - degree: Licenciatura
+    school: Universidad
+    year: 2022

@@ -1,0 +1,8 @@
+{
+  "title": "Senior Backend Developer",
+  "company": "TechCorp",
+  "description": "Buscamos un Senior Backend Developer con experiencia en Python y Docker",
+  "required_skills": ["Python", "Docker", "PostgreSQL", "FastAPI"],
+  "experience_years": 3,
+  "keywords": ["API REST", "microservicios", "cloud", "AWS"]
+}

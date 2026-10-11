@@ -1,0 +1,13 @@
+{
+  "candidate": "Johan Gloria",
+  "job": "Senior Backend Developer",
+  "match": 50.0,
+  "matched_skills": [
+    "python",
+    "docker"
+  ],
+  "missing_skills": [
+    "postgresql",
+    "fastapi"
+  ]
+}
