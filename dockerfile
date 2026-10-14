@@ -14,8 +14,8 @@ RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 # Agregar uv al PATH
 ENV PATH="/root/.local/bin:$PATH"
 
-COPY requirements.txt .
-RUN uv pip install --system -r requirements.txt
+COPY requirements.txt requirements-dev.txt ./
+RUN uv pip install --system -r requirements-dev.txt
 
 COPY . .
 

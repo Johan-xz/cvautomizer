@@ -1,22 +1,126 @@
 name: Johan Gloria
 email: johanglgzz@gmail.com
-experience:
-  - title: Backend Developer
-    company: TechCorp
-    start: 2023-01-15
-    end: 2024-06-30
-    description: APIs en Python
-  - title: Junior Dev
-    company: Startup
-    start: 2022-06-01
-    end: 2022-12-31
-    description: Automatización
-skills:
-  - name: Python
-    level: senior
-  - name: Docker
-    level: mid
+phone: "+52 8110708967"
+location: "Monterrey, NL"
+postal_code: "66636"
+
+about_me: |
+  Results-driven software engineer with hands-on experience in backend development, machine learning, and operations optimization. Proven track record of measurable impact — from boosting e-commerce fulfillment rates to 98.5% to mentoring peers in applied ML.
+
 education:
-  - degree: Licenciatura
-    school: Universidad
-    year: 2022
+  - degree: "Software engineering degree"
+    school: "UANL (Universidad Autonoma de Nuevo Leon)"
+    location: "Monterrey, NL"
+    year: 2025
+    gpa: null
+    show: true
+
+  - degree: "Bilingual progressive French High school"
+    school: "High School # 16, UANL"
+    location: "San Nicolas de los Garza, NL"
+    year: 2019
+    gpa: null
+    show: false
+
+experience:
+  - title: "Backend developer Intern"
+    company: "Bécalos Technoready, Tecmilenio"
+    location: "Monterrey, NL"
+    start_date: "2025-09"
+    end_date: "2025-12"
+    show: true
+    bullets:
+      - "Developed and built robust, high-performance backend applications in Java, specializing in the design and implementation of RESTful APIs."
+      - "Managed full-Stack data persistence, gaining expertise in administering both SQL (MySQL) and NoSQL (MongoDB) databases."
+      - "Implemented unit and black-box testing to ensure software reliability and maintainability."
+      - "Ensured software quality through automated testing and effective use of Git for version control and continuous integration workflows."
+      - "Demonstrated strong professional acumen in areas such as communication, stakeholder management, leadership, negotiation, and conflict resolution."
+
+  - title: "Operations coordinator"
+    company: "SIX store"
+    location: "Monterrey, NL"
+    start_date: "2024-01"
+    end_date: "2025-05"
+    show: true
+    bullets:
+      - "E-commerce optimization and customer service: enhanced effectiveness of online orders from 82% to 98.5%, positioning the branch as top-rated in Nuevo León."
+      - "Implemented rigorous daily inventories in complementary categories and proactive restock management with suppliers."
+      - "Inventory control and loss reduction: Reduced losses by 66% and product shortages from 6,000 to 2,000."
+      - "Implemented internal audit system and shift-by-shift counting for highest-moving products."
+
+  - title: "Internship and social service - Innovation and Technological development Secretary"
+    company: "FACMED, UANL"
+    location: "Monterrey, NL"
+    start_date: "2023-11"
+    end_date: "2024-11"
+    show: true
+    bullets:
+      - "Introduction to new interns on Applied machine learning models (linear Regression, Decision Tree Regressor) on Python using Scikit-learn."
+      - "Explained Transfer learning using Senet model on Python with TensorFlow."
+      - "Data cleaning and exploration using NumPy, Pandas, Matplotlib, and Seaborn."
+      - "Development of virtual environments on Unity using C# as a programming language."
+      - "Technological research in medical and non-medical databases such as PubMed, IEEE Xplore, and ResearchGate."
+      - "Explained applied CNN on Pytorch and participated in Kaggle competition on Harmful Brain Activity classification."
+      - "Used Figma to create interactive web page prototypes."
+
+  - title: "BIOS and UEFI technician on HP products in DOA project"
+    company: "Netser Group"
+    location: "Monterrey, NL"
+    start_date: "2022-02"
+    end_date: "2023-11"
+    show: true
+    bullets:
+      - "Analyzed computing products to detect factory defects or functional failures."
+      - "Made documentation of product's physical state and managed the devolution process following HP warranty parameters."
+      - "Completed Course HP Commercial Desktops, Workstations, and Notebooks."
+
+leadership:
+  - title: "DSC Datathon Participation"
+    organization: "Tecnológico de Monterrey"
+    location: "Monterrey, NL"
+    date: "2026-04"
+    show: true
+    description: |
+      Analyzed dataset provided by Hey Banco with teammates. Applied data cleaning, feature engineering, and information enrichment. Used unsupervised models to segment clients and deployed locally using RAG model connected to LLM for dynamic financial coach.
+
+  - title: "DSC Datathon Participation"
+    organization: "Tecnológico de Monterrey"
+    location: "Monterrey, NL"
+    date: "2025-05"
+    show: true
+    description: |
+      Analyzed dataset provided by OXXO México with teammates. Applied data cleaning, data manipulation, KPI, and feature engineering using Decision Tree Classification ML model.
+
+skills:
+  technical:
+    - "Python"
+    - "Java"
+    - "JavaScript"
+    - "C#"
+    - "VS Code"
+    - "Google Colab"
+    - "Jupyter Notebook"
+    - "Anaconda Navigator"
+    - "IntelliJ"
+
+  laboratory:
+    - "Docker"
+    - "Junit"
+    - "Postman"
+    - "GitHub Actions"
+    - "Virtual environments"
+
+  languages:
+    - name: "English"
+      level: "fluent"
+    - name: "Spanish"
+      level: "native"
+
+interests:
+  - "Software architecture"
+  - "Continuous learning"
+  - "Music"
+  - "Problem solving"
+  - "AI applications"
+  - "Psychology"
+  - "Neurology"

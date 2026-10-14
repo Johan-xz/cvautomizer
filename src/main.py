@@ -13,6 +13,8 @@ def main():
     
     args = parser.parse_args()
     
+    Path(args.output).parent.mkdir(parents=True, exist_ok=True)
+    
     print(f"[*] Cargando candidato: {args.candidate}")
     candidate_parser = CandidateParser(args.candidate)
     candidate = candidate_parser.parse()
