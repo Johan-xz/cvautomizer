@@ -1,33 +1,26 @@
-# CVAutomizer
+# CVAutomizer: documentación
 
-Herramienta en Python para **automatizar la adaptación de un CV a cada oferta de trabajo**, reduciendo el tiempo que toma personalizar el currículum manualmente antes de cada aplicación.
+Herramienta en Python que genera un CV en PDF adaptado a cada oferta de trabajo, con formato Harvard y pensado para sistemas ATS.
 
-## Problema que resuelve
+Estos documentos explican **qué decisiones se tomaron, con qué herramientas se trabaja y en qué fase está el proyecto**.
 
-Postular a varias vacantes suele implicar reescribir o ajustar el CV una y otra vez: reordenar experiencia, resaltar habilidades relevantes y adaptar el lenguaje a cada oferta. Ese proceso manual consume tiempo y es fácil de posponer o hacer de forma inconsistente.
+## Índice
 
-CVAutomizer automatiza ese ajuste: a partir de un perfil base con toda la información del candidato, genera un CV en PDF adaptado a la oferta de trabajo específica, sin tener que editar el documento a mano en cada aplicación.
+- [decisiones.md](decisiones.md): registro de decisiones de arquitectura (ADR), con su contexto y consecuencias.
+- [herramientas.md](herramientas.md): stack tecnológico, versiones y uso de cada herramienta.
+- [fases.md](fases.md): fases del proyecto, estado actual y trabajo futuro.
 
-## Cómo funciona (flujo general)
+## Estado actual
 
-1. **Datos base del candidato** (`data/`): la experiencia, educación, habilidades y demás información se mantienen en archivos estructurados (JSON/YAML), en un solo lugar, en vez de en múltiples versiones de CV.
-2. **Procesamiento** (`src/`): el proyecto toma esos datos junto con la información de la oferta de trabajo y genera un CV adaptado, priorizando y ajustando el contenido según lo relevante para esa vacante.
-3. **Resultado** (`output/`): el CV final se genera en formato PDF, listo para enviar.
+Actualizado: 2026-10-13.
 
-## Estructura del proyecto
+- Entorno: contenedor Docker `cvautomizer` creado desde la imagen `cvautomizer:1.0`, con el proyecto montado.
+- Control de versiones: repositorio en GitHub sincronizado con la copia local.
+- Datos: modelo `Candidate` unificado con `data/candidate.yaml`, con validación de fechas en formato `YYYY-MM`.
+- Generación de PDF: en desarrollo. El generador todavía usa atributos del modelo anterior.
 
-```
-cvautomizer/
-├── data/         # Perfil/datos base del candidato (JSON/YAML)
-├── src/          # Código fuente del proceso de generación/adaptación del CV
-├── output/       # CVs en PDF generados por la herramienta
-└── dockerfile    # Definición de imagen Docker para ejecutar el proyecto
-```
+## Cómo mantener esta documentación
 
-## Beneficio principal
-
-Pasar de editar un CV a mano por cada postulación a mantener **una sola fuente de datos** y generar automáticamente una versión adaptada por oferta, reduciendo tiempo y errores en el proceso de aplicación a empleos.
-
-## Estado del proyecto
-
-En desarrollo inicial: se está definiendo la estructura base (`data/`, `src/`, `output/`, `dockerfile`) sobre la que se implementará el flujo de generación de CVs.
+- Cada decisión importante se agrega como un ADR nuevo en `decisiones.md`, con el siguiente número disponible. No se borran decisiones anteriores: si cambian, se marca la anterior como reemplazada y se enlaza la nueva.
+- Al cerrar una fase, se actualiza su estado en `fases.md`.
+- Si cambia una versión en `requirements.txt`, se actualiza la tabla de `herramientas.md`.
