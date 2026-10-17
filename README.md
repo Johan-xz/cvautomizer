@@ -6,9 +6,9 @@ Estos documentos explican **qué decisiones se tomaron, con qué herramientas se
 
 ## Índice
 
-- [decisiones.md](decisiones.md): registro de decisiones de arquitectura (ADR), con su contexto y consecuencias.
-- [herramientas.md](herramientas.md): stack tecnológico, versiones y uso de cada herramienta.
-- [fases.md](fases.md): fases del proyecto, estado actual y trabajo futuro.
+- [decisiones.md](/docs/decisiones.md): registro de decisiones de arquitectura (ADR), con su contexto y consecuencias.
+- [herramientas.md](/docs/herramientas.md): stack tecnológico, versiones y uso de cada herramienta.
+- [fases.md](/docs/fases.md): fases del proyecto, estado actual y trabajo futuro.
 
 ## Estado actual
 
